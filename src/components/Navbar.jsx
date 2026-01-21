@@ -14,9 +14,10 @@ const Navbar = () => {
           setactive("");
           window.scrollTo(0,0);
         }}>
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain"/>
-          <p className="text-white text-[18px] font-bold cursor-pointer">Sriram <span className="sm:block hidden">|Karnati</span></p>
+          <img src={logo} alt="logo" className="w-9 h-9 object-contain"/> 
+           <p className="text-white text-[18px] font-bold cursor-pointer">Sriram <span className="sm:block hidden">|Karnati</span></p>
         </Link>
+        <p className="text-red-599">asda</p>
       </div>
     </nav>
   );
